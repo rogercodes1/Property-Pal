@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
   end
 
   def create
+    
     @tenant = Tenant.find_by(email: params[:email])
     if params[:admin] == "1" && @tenant.nil?
       @admin = Admin.find_by(email: params[:email])
