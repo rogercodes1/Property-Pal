@@ -1,24 +1,20 @@
-# README
+# Property Pals
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Property pals is a Ruby on Rails Application that creates a connection between tenant users and property mangers (admin).
 
-Things you may want to cover:
+# Built With
+* Ruby on Rails
+* BootStrap
+* Custom CSS
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+# Authors
+Current Authors:
+* Roger Perez (myself)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Original Authors (Flatiron School Team)
+* Roger Perez
+* Michael Myung 
+* Ryan O'Toole
+* Ian Pollack
