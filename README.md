@@ -9,7 +9,7 @@ Property pals is a Ruby on Rails Application that creates a connection between t
 
 
 
-# Authors
+## Authors
 Current Authors:
 * Roger Perez (myself)
 
