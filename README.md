@@ -1,6 +1,7 @@
 # Property Pals
 
 Property pals is a Ruby on Rails Application that creates a connection between tenant users and property mangers (admin).
+[Live Demo](https://property-pal.herokuapp.com/)
 
 # Built With
 * Ruby on Rails
