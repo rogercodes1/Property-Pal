@@ -7,6 +7,9 @@ Property pals is a Ruby on Rails Application that creates a connection between t
 * BootStrap
 * Custom CSS
 * Postgresql
+* ActiveRecord
+* OOP
+* Sessions
 
 # Notable Gems
 * bCrypt
