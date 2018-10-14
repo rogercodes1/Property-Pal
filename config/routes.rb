@@ -26,9 +26,6 @@ Rails.application.routes.draw do
 
   get "/admins_redir_from_dash", to: "admins#redir_from_dash"
 
-  # ICEBOXED
-  # get "/admin_login", to: 'admins#admin_login'
 
-  # get "/login", to: 'static#login', as: 'login'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
