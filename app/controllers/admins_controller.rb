@@ -1,9 +1,6 @@
-
-
 class AdminsController < ApplicationController
   before_action :is_admin_logged_in?, except: [:new]
   before_action :fetch_admin
-
 
   def new
     @admin = Admin.new
