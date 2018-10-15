@@ -30,8 +30,6 @@ class AdminsController < ApplicationController
   def show
   end
 
-
-
   def index
     @admins = Admin.all
 
@@ -58,6 +56,8 @@ class AdminsController < ApplicationController
   def dashboard
     #Admin MUST BE LOGGED IN for this to work
     if session[:admin_id]
+      #TODO see if I can include data rather than call new query.
+
       @admin = Admin.find(session[:admin_id])
       @properties = Property.where(admin_id: @admin.id)
       @sectors = @properties.map{|prop| prop.sectors}.flatten
@@ -100,9 +100,6 @@ class AdminsController < ApplicationController
     else
       redirect_to admin_dashboard_path
     end
-  end
-
-  def retrieve_info
   end
 
   private
