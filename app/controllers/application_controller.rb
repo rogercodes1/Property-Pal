@@ -14,6 +14,7 @@ class ApplicationController < ActionController::Base
     !!current_admin #double negation, if true user exists, false if it doesn't
     #!<user instance> --> false
     # !nil --> true (negate taht to a false)
+
   end
   def current_tenant
     if session[:tenant_id]
@@ -24,6 +25,7 @@ class ApplicationController < ActionController::Base
     !!current_tenant #double negation, if true user exists, false if it doesn't
     #!<user instance> --> false
     # !nil --> true (negate taht to a false)
+
   end
 
 
