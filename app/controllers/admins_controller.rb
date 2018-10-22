@@ -54,7 +54,6 @@ class AdminsController < ApplicationController
     #Admin MUST BE LOGGED IN for this to work
     if session[:admin_id]
       #TODO see if I can include data rather than call new query.
-
       @admin = Admin.find(session[:admin_id])
       @properties = Property.where(admin_id: @admin.id)
       @sectors = @properties.map{|prop| prop.sectors}.flatten
@@ -100,7 +99,6 @@ class AdminsController < ApplicationController
   end
 
   private
-
   def admin_params
     params.require(:admin).permit(:first_name, :last_name, :email, :password, :hint_password, :address_id, :contract_id, :property_id)
   end
