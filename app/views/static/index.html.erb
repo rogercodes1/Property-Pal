@@ -8,11 +8,8 @@
 <br>
 <div id="intro_welcome">
   <div id="welcome_div">
-  <% if tenant_logged_in? %>
-      <h1 class="welcome">Welcome back <%= @tenant.fullname %>!</h1>
-    <% elsif admin_logged_in? %>
-      <h1 class="welcome">Welcome back <%= @admin.fullname %>!</h1>
-      <% else %>
+  <% if !tenant_logged_in? || !admin_logged_in? %>
+    
     <h1 class="welcome">Welcome to Property Pals!</h1>
     <% end %>
 </div>
