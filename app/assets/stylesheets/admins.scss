@@ -3,13 +3,23 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // data for homepage
-body{
+body {
     background:url('https://images.unsplash.com/photo-1515419682769-91a8a6bdaf68?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a04c4dfbec64f71535ee070f8b34859c&auto=format&fit=crop&w=3300&q=80');
     padding:50px;
     width: 100%;
     height: 100%;
     background-size: 100%, 100%;
     // opacity: 0.5;
+}
+html {
+  box-sizing: border-box;
+
+}
+*, *:before, *:after {
+  box-sizing : inherit;
+  font-family: 'Roboto', sans-serif;
+  margin : 0;
+  padding: 0;
 }
 
 #login-dp{
