@@ -20,6 +20,14 @@ Property pals is a Ruby on Rails Application that creates a connection between t
 * pg (postgresql)
 * byebug (development)
 
+# What I learned
+* How to implement sessions for different types of authorized users such as tenant or admin credentials.
+* Able to create routes and render page erb based on credentials
+* Create Auth using bCrypt
+* Abstracting code so it can be reused.
+* Data modeling 
+* Working on a team and being able to split up work.
+* Use of branching, merge, and commit, GIT.
 
 ## Authors
 Current Authors:
